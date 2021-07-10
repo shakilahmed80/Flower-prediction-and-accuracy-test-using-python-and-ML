@@ -18,6 +18,7 @@ data_set = datasets.load_iris()
 features = data_set.data
 label = data_set.target
 
+
 #Section no 2 | sepal lenth, sepal width, petal length, petal width
 features_train,features_test,label_train,label_test = train_test_split(features,label,test_size=.5)
 #print(len(features_train))
