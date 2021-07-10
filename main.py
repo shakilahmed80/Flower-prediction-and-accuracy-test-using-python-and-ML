@@ -22,7 +22,7 @@ label = data_set.target
 features_train,features_test,label_train,label_test = train_test_split(features,label,test_size=.5)
 #print(len(features_train))
 
-#call Kneighbors and call "fit" for traing the data | Section 3
+#call Kneighbors and call "fit" for training the data | Section 3
 my_classifier = KNeighborsClassifier()
 my_classifier.fit(features_train,label_train)
 #call the "predit" to test the features from "myclassifier"
