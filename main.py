@@ -33,6 +33,7 @@ my_classifier.fit(features_train,label_train)
 #call the "predit" to test the features from "myclassifier"
 prediction = my_classifier.predict(features_test)
 
+
 #print(prediction)
 
 #section no 4
