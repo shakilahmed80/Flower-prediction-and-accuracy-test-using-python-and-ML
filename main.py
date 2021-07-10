@@ -52,6 +52,8 @@ iris1 = [[4.7,2.5,3.1,1.2]]
 # TO print the flower name using "KNeigbbour"
 iris_predic = my_classifier.predict(iris1)
 
+
+
 if iris_predic[0]==0:
     print("Flower: Setosa")
 
