@@ -39,6 +39,7 @@ prediction = my_classifier.predict(features_test)
 #section no 4
 print("Score is:",accuracy_score(label_test,prediction))
 
+
 #versicolor
 iris1 = [[4.7,2.5,3.1,1.2]]
 
